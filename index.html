@@ -335,6 +335,8 @@ header.site{background:var(--bg)}
 .shop-gallery .shop-photo{min-height:0}
 .shop-gallery .wide{grid-column:1/-1}
 .shop-gallery .wide img{aspect-ratio:auto;height:auto}
+.shop-gallery .wide.crop img{aspect-ratio:16/9;object-fit:cover}
+.lb figcaption{display:none}
 .shop-gallery .shop-cap{grid-column:1/-1;margin:0;font-family:var(--mono);font-size:.75rem;letter-spacing:.06em;color:var(--muted)}
 
 
@@ -605,9 +607,7 @@ mark.todo{background:#FFF1C2;color:var(--ink);padding:1px 4px;border-radius:4px}
     <figure class="shop-photo"><img src="shop/devanture.webp" alt="L'entrée de la Droguerie du Boulevard, avenue William-Fraisse 1" width="1080" height="1080" loading="lazy"></figure>
     <figure class="shop-photo"><img src="shop/vitrine.webp" alt="La vitrine de la Droguerie du Boulevard en journée" width="1080" height="1080" loading="lazy"></figure>
     <figure class="shop-photo wide"><img src="shop/interieur.webp" alt="L'intérieur de la droguerie vu depuis la vitrine : étagères, flacons anciens et produits en vrac" width="872" height="537" loading="lazy"></figure>
-    <figure class="shop-photo"><img src="shop/comptoir.webp" alt="Le comptoir de la droguerie : conseils, dépliants de spagyrie et bocal de plantes" width="1200" height="1600" loading="lazy" style="object-position:50% 62%"></figure>
-    <figure class="shop-photo"><img src="shop/herboristerie.webp" alt="L'herboristerie : les boîtes de plantes séchées vendues en vrac, étiquetées à la main" width="1600" height="1200" loading="lazy"></figure>
-    <p class="shop-cap">Notre devanture, nos vitrines, le comptoir et l'herboristerie · touchez une photo pour l'agrandir</p>
+    <figure class="shop-photo wide crop"><img src="shop/comptoir.webp" alt="Le comptoir de la droguerie : conseils, dépliants de spagyrie et bocal de plantes" width="1200" height="1600" loading="lazy" style="object-position:50% 62%"></figure>
   </div>
 </div></section>
 
